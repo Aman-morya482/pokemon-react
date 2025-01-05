@@ -9,7 +9,7 @@ export const Pokemon= ()=> {
     const[loading,setLoading] = useState(true);
     const[search,setSearch]= useState("");
      
-    const API = "https://pokeapi.co/api/v2/pokemon?limit=20"
+    const API = "https://pokeapi.co/api/v2/pokemon?limit=100"
     const fetchPokemonData = async() => {
     try {   
         const data = await fetch(API);
