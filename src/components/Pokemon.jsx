@@ -53,7 +53,7 @@ console.log(searchPokemon);
         // <div className="loading-screen w-full h-48 flex justify-center items-center">
         //     <p className="text-5xl text-center">Loading...</p>
         // </div>
-<div className="w-full h-screen gap-5 p-10 m-4 justify-center items-center flex-wrap">
+<div className="w-full h-screen gap-5 p-10 m-4 flex justify-center items-center flex-wrap">
     
 {loadingCard.map((curr)=>{
     return (
